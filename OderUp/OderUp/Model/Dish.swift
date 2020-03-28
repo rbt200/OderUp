@@ -12,8 +12,11 @@ import SwiftUI
 /// Implement Identifiable which will help to uniquely identify each dish
 struct Dish: Identifiable {
     
-    /// unique id
-    var id: String = UUID().uuidString
+    /// unique  category id
+    var id: String
+    
+    /// unique dish id
+    let dishId: String = UUID().uuidString
     
     /// dish name
     let name: String
@@ -22,11 +25,31 @@ struct Dish: Identifiable {
     let img: String
     
     /// Init
-    init(name: String, img: String) {
+    init(id: String, name: String, img: String) {
+        self.id = id
         self.name = name
         self.img = img
     }
 }
+
+
+//struct Dish: Identifiable {
+//
+//    /// unique id
+//    var id: String = UUID().uuidString
+//
+//    /// dish name
+//    let name: String
+//
+//    /// dish profile image
+//    let img: String
+//
+//    /// Init
+//    init(name: String, img: String) {
+//        self.name = name
+//        self.img = img
+//    }
+//}
 
 
 

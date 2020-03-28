@@ -11,17 +11,14 @@ import SwiftUI
 /// Display data on screen
 struct Menu: View {
     
-    let categories: [Category]
-    let dishes: [Dish]
+//    let categories: [Category]
+//    let dishes: [Dish]
+    var categories = DB.categories()
+    @State var dishes = DB.dishes()
+        
     
     // @State private var cartItems: Dictionary<Int, ShopItem> = [:]
     @State private var cartItems: Int = 0
-    
-    /// not nessesary
-    //    init(categories: [Category], dishes: [Dish]) {
-    //        self.categories = categories
-    //        self.dishes = dishes
-    //    }
     
     var body: some View {
         
@@ -31,8 +28,16 @@ struct Menu: View {
                 /// categories
                 ScrollView(.horizontal, content: {
                     HStack(spacing: 10) {
+//                        for (index, category) in categories.enumerated() {
+//                          CategoryView(category: category).onTapGesture {
+//                              self.dishes = DB.dishes[index]
+//                          }
+//                        }
+                        //Text("fdfdf")
                         ForEach(categories) { category in
-                            CategoryView(category: category)
+                            CategoryView(category: category).onTapGesture {
+                                //self.dishes = dishes[0]
+                            }
                         }
                     }
                     .padding(.leading, 10)

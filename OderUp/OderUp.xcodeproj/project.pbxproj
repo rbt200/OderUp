@@ -21,6 +21,7 @@
 		E65BE196242BDAEA00BFBD36 /* DBcategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65BE195242BDAEA00BFBD36 /* DBcategories.swift */; };
 		E65BE198242BE4B900BFBD36 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65BE197242BE4B900BFBD36 /* CategoryView.swift */; };
 		E65BE19A242BE4CA00BFBD36 /* DishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65BE199242BE4CA00BFBD36 /* DishView.swift */; };
+		E65BE19C242C997300BFBD36 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65BE19B242C997300BFBD36 /* DB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E65BE195242BDAEA00BFBD36 /* DBcategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBcategories.swift; sourceTree = "<group>"; };
 		E65BE197242BE4B900BFBD36 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		E65BE199242BE4CA00BFBD36 /* DishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishView.swift; sourceTree = "<group>"; };
+		E65BE19B242C997300BFBD36 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				E65BE195242BDAEA00BFBD36 /* DBcategories.swift */,
+				E65BE19B242C997300BFBD36 /* DB.swift */,
 				E65BE193242BD94200BFBD36 /* DBdishes.swift */,
 				E65BE185242A7BA900BFBD36 /* Menu.swift */,
 				E65BE187242A872D00BFBD36 /* Cart.swift */,
@@ -191,6 +194,7 @@
 				E65BE198242BE4B900BFBD36 /* CategoryView.swift in Sources */,
 				E65BE172242A719D00BFBD36 /* SceneDelegate.swift in Sources */,
 				E65BE188242A872D00BFBD36 /* Cart.swift in Sources */,
+				E65BE19C242C997300BFBD36 /* DB.swift in Sources */,
 				E65BE196242BDAEA00BFBD36 /* DBcategories.swift in Sources */,
 				E65BE19A242BE4CA00BFBD36 /* DishView.swift in Sources */,
 				E65BE186242A7BA900BFBD36 /* Menu.swift in Sources */,

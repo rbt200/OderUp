@@ -10,13 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let dishes = DBdishes.dishes()
-    let categories = DBcategories.categories()
+//    let dishes = DBdishes.dishes0()
+//    let categories = DBcategories.categories()
     
     //    @State private var showDetails = false
     var body: some View {
         
-        return Menu(categories: categories, dishes: dishes )
+        Menu()
+//        return Menu(categories: categories, dishes: dishes )
         
         //Menu(availableItems: [CategoryItem(name: "Pie", id: 2)]/)
         // Text("Menu")
